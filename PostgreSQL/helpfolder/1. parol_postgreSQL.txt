@@ -1,0 +1,31 @@
+postgres270783
+postgres270783
+
+port 5432
+
+
+PgAdmin
+parol: pgadmin270783
+
+
+----------------------------------------------------------------------
+SQL Shell (psql)
+Server [localhost]: localhost
+Database [postgres]: postgres
+Port [5432]: 5432
+Username [postgres]: postgres
+Пароль пользователя postgres: postgres270783
+psql (14.2)
+ПРЕДУПРЕЖДЕНИЕ: Кодовая страница консоли (866) отличается от основной
+                страницы Windows (1251).
+                8-битовые (русские) символы могут отображаться некорректно.
+                Подробнее об этом смотрите документацию psql, раздел
+                "Notes for Windows users".
+Введите "help", чтобы получить справку.
+
+commands:
+\l+   List of databases
+\d+   Отношения не найдены
+SELECT VERSION();
+SELECT NOW();
+\q

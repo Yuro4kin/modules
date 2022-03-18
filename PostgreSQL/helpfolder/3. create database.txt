@@ -1,0 +1,14 @@
+CREATE DATABASE my_test_db1;
+\l
+Refresh
+show data_directory;
+можно скопировать путь для gitbash или cmd для создания
+
+
+https://www.geeksforgeeks.org/postgresql-create-database/?ref=lbp
+postgres=# CREATE DATABASE my_test_db2
+postgres-#  WITH ENCODING='UTF-8'
+postgres-#  OWNER=postgres
+postgres-#  CONNECTION LIMIT=30;
+
+
