@@ -1,0 +1,1 @@
+# 2. sqlite3.OperationalError: table users already exists

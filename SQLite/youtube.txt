@@ -1,0 +1,33 @@
+https://www.youtube.com/watch?v=u-RbXGxkerc&ab_channel=%D0%97%D0%BB%D0%B0%D1%8F%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0
+
+sql
+https://www.youtube.com/watch?v=iiGWj4aavbk&ab_channel=Noukash
+
+
+200 запросов
+https://sql-ex.ru/ - полезный сайт-тренажер
+
+
+
+- Microsoft SQL Server
+- MySQL
+- PostgreSQL
+- SQlLight
+
+- pandas
+- NumPy
+- matplotlib
+
+- Визуализация
+- Tableau  - дорогое
+- Power BI - бизнес аналитика, финансовая аналитика
+
+- Учим
+- Amplitude - платформа для продуктовой аналитики
+
+
+- Макросы
+- Excel - данные оказываются 
+
+- VIM 
+- Макросы
