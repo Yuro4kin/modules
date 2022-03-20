@@ -1,0 +1,27 @@
+<!-- # about.html - это дочерний шаблон - будет расширять ex_main.html -->
+<!-- # extends - расширять -->
+<!-- % extends 'ex_main.html' % --> 
+<!--{                          } -->
+<!--            ERROR -        raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: ex_main.html -->
+
+<!-- # Шаблоны - default.tpl - на практике хранятся в других подкаталогах layout -->
+{% extends 'layout/default.tpl' %}
+
+{% block title %}About website{% endblock %}
+
+{% block content %}
+
+<!--    super()    -->
+<!--               -->
+<!-- лучше указать super в дочернем шаблоне следующим образом -->
+{% block table_contents %}{{ super() }}{% endblock %}
+
+<h1>About website - Jinja2 </h1>
+<h1>{{ self.title() }}</h1>
+<p>Super website, if you do it.</p>
+
+{% endblock %}
+
+
+{% block item %}<p class="item">{{ super() }}</p>{% endblock %}
